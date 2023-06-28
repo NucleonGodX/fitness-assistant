@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF7ED;
+  font-family: "Inter", sans-serif;}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -24,3 +34,11 @@
 .topnav-right {
   float: right;
 }
+
+.home-major{
+
+  background-image: url("https://www.muscleandfitness.com/wp-content/uploads/2016/09/Bodybuilder-Working-Out-His-Upper-Body-With-Cable-Crossover-Exercise.jpg?quality=86&strip=all");
+
+  height:700px;
+
+  background-size: cover}
