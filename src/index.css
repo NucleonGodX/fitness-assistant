@@ -57,3 +57,9 @@ html, body {
   background-color:#ddd;
   color:purple;
 }
+
+.bottom-foot{
+  background-color:"rgba(0, 0, 0, 0.2)"}
+
+.main-content{
+min-height:600px;}
