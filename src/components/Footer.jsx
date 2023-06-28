@@ -140,7 +140,7 @@ export default function Footer(){
   
       <div class="mb-6">
         <p>
-            We care for you fitness and Well being, Hope you continue Loving our Site!
+            We care for your fitness and Well being, Hope you continue Loving our Site!
         </p>
       </div>
       </div>

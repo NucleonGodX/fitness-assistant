@@ -7,7 +7,7 @@ export default function Header(){
     <NavLink to="/exercises" className={({isActive})=>isActive?"after-click": "before"}>Exercises</NavLink>
     <div className="topnav-right">
     <NavLink to= "/about-us" className={({isActive})=>isActive?"after-click": "before"}>About Us</NavLink>
-    <NavLink to="/sign-up" className={({isActive})=>isActive?"after-click": "before"}>Sign In</NavLink>
+    <NavLink to="/sign-up" className={({isActive})=>isActive?"after-click": "before"}>Sign Up</NavLink>
     </div>
     </div>)
 }
