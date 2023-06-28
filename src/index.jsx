@@ -4,6 +4,9 @@ import "./index.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
+import About from "./pages/About-us";
+import Exercises from "./pages/Exercises";
+import SignUp from "./pages/Auth/sign-up";
 
 function App()
 {
@@ -12,6 +15,9 @@ function App()
     <Routes>
     <Route element={<Layout/>}>
     <Route index element={<Home/>}/>
+    <Route element={<About/>} path="about-us"/>
+    <Route element={<Exercises/>} path="exercises"/>
+    <Route element={<SignUp/>} path="sign-up"/>
     </Route>
     </Routes>
     </BrowserRouter>)
