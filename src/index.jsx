@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About-us";
 import Exercises from "./pages/Exercises";
 import SignUp from "./pages/Auth/sign-up";
+import SignIn from "./pages/Auth/sign-in";
+import Dashboard from "./pages/Auth/dashboard";
 
 function App()
 {
@@ -18,6 +20,8 @@ function App()
     <Route element={<About/>} path="about-us"/>
     <Route element={<Exercises/>} path="exercises"/>
     <Route element={<SignUp/>} path="sign-up"/>
+    <Route element={<SignIn/>} path="sign-in"/>
+    <Route element={<Dashboard/>} path="sign-in/dashboard"/>
     </Route>
     </Routes>
     </BrowserRouter>)
