@@ -9,6 +9,9 @@ import Exercises from "./pages/Exercises";
 import SignUp from "./pages/Auth/sign-up";
 import SignIn from "./pages/Auth/sign-in";
 import Dashboard from "./pages/Auth/dashboard";
+import Diet from "./pages/PerkPages/Diet";
+import Meditation from "./pages/PerkPages/Meditation";
+import Sleep from "./pages/PerkPages/Sleep";
 
 function App()
 {
@@ -17,9 +20,11 @@ function App()
     <Routes>
     <Route element={<Layout/>}>
     <Route index element={<Home/>}/>
-    <Route element={<About/>} path="about-us">
     <Route element={<About/>} path="about-us"/>
-    </Route>
+    <Route element={<Diet/>} path="about-us/Diet"/>
+    <Route element={<Meditation/>} path="about-us/Meditation"/>
+    <Route element={<Sleep/>} path="about-us/sleep schedule"/>
+
     <Route element={<Exercises/>} path="exercises"/>
     <Route element={<SignUp/>} path="sign-up"/>
     <Route element={<SignIn/>} path="sign-in"/>

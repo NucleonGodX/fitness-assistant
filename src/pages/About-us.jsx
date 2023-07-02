@@ -5,7 +5,7 @@ export default function About(){
     const [data, setData]=React.useState(Data)
     const dataItem=data.map((info)=> 
     
-    <Link className="about-cards"><div>
+    <Link to={`/about-us/${info.title}`} className="about-cards"><div>
         <img src={info.image}/>
         <h1 className="info-title">{info.title}</h1>
         <h2 className="info-info">{info.info}</h2>
