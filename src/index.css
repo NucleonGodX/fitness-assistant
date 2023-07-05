@@ -80,7 +80,7 @@ min-height:600px;}
 
 .about-cards{
   width:265px;
-  height:420px;
+  min-height:430px;
   position:relative;
   display:inline-flex;
   left:20px;
@@ -115,4 +115,19 @@ group{
   display:flex;
   justify-content:center;
   padding-top:20px;
+}
+
+.diet-article{
+  padding:30px;
+}
+
+.step-style{
+  font-size:25px;
+  color:red;
+  font-weight:600;
+}
+
+.diet-content{
+  font-size:18px;
+  font-weight:300px;
 }

@@ -7,4 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  variants: {
+    width: ["responsive", "hover", "focus"]
+}
 }
