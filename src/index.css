@@ -131,3 +131,7 @@ group{
   font-size:18px;
   font-weight:300px;
 }
+
+.canvas-container{
+  height:500px;
+}
